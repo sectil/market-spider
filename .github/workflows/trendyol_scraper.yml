@@ -1,0 +1,49 @@
+name: Trendyol Data Scraper
+
+on:
+  schedule:
+    # Her 6 saatte bir çalıştır
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Manuel tetikleme
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    - name: Install dependencies
+      run: |
+        pip install selenium webdriver-manager beautifulsoup4 requests pandas
+        pip install undetected-chromedriver cloudscraper httpx[http2] fake-useragent
+
+    - name: Run scraper
+      run: |
+        python3 github_action_scraper.py
+
+    - name: Upload data
+      uses: actions/upload-artifact@v3
+      with:
+        name: trendyol-data
+        path: |
+          market_spider.db
+          scraped_products.csv
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Auto-update: Trendyol data $(date +%Y-%m-%d)"
+        git push

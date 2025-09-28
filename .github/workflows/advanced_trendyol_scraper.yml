@@ -1,0 +1,113 @@
+name: Advanced Trendyol Data Scraper
+
+on:
+  schedule:
+    # Her 4 saatte bir çalıştır (günde 6 kez - GitHub Free limit içinde)
+    - cron: '0 */4 * * *'
+  workflow_dispatch:  # Manuel tetikleme için
+    inputs:
+      categories:
+        description: 'Hangi kategoriler taranacak (virgülle ayırın)'
+        required: false
+        default: 'cok-satanlar,elektronik,moda,kozmetik'
+
+jobs:
+  scrape-trendyol:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install Chrome and ChromeDriver
+      run: |
+        # Chrome kurulumu
+        sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+        # ChromeDriver kurulumu
+        CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
+        wget -q "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}" -O /tmp/chromedriver_version
+        DRIVER_VERSION=$(cat /tmp/chromedriver_version)
+        wget -q "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip" -O /tmp/chromedriver.zip
+        unzip -q /tmp/chromedriver.zip -d /tmp/
+        sudo mv /tmp/chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+
+    - name: Install Python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install selenium webdriver-manager beautifulsoup4 requests pandas
+        pip install undetected-chromedriver cloudscraper httpx[http2]
+        pip install fake-useragent python-dotenv lxml
+        pip install playwright && playwright install chromium
+
+    - name: Run main scraper
+      env:
+        GITHUB_ACTIONS: true
+      run: |
+        python3 github_advanced_scraper.py
+      continue-on-error: true
+
+    - name: Run backup scrapers if main fails
+      if: failure()
+      run: |
+        echo "Ana scraper başarısız, yedek yöntemler deneniyor..."
+        python3 playwright_scraper.py || true
+        python3 api_endpoint_scraper.py || true
+
+    - name: Verify data quality
+      run: |
+        python3 verify_scraped_data.py
+
+    - name: Generate report
+      run: |
+        python3 generate_scraping_report.py
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: trendyol-data-${{ github.run_number }}
+        path: |
+          market_spider.db
+          scraped_products.csv
+          scraping_report.html
+          logs/*.log
+        retention-days: 30
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add market_spider.db scraped_products.csv *.json *.html
+        git diff --staged --quiet || git commit -m "🤖 Auto-update: Trendyol data $(date '+%Y-%m-%d %H:%M')"
+        git push
+      continue-on-error: true
+
+    - name: Send notification
+      if: always()
+      run: |
+        if [ -f scraped_products.csv ]; then
+          PRODUCT_COUNT=$(wc -l < scraped_products.csv)
+          echo "✅ Başarıyla $PRODUCT_COUNT ürün toplandı"
+        else
+          echo "❌ Veri toplama başarısız"
+        fi

@@ -1,0 +1,119 @@
+{
+  "date": "2025-09-28T00:16:26.094044",
+  "best_product": {
+    "product": "Palazzo Pantolon Oversize Orjinal Kesim",
+    "formula": {
+      "product_name": "Palazzo Pantolon Oversize Orjinal Kesim",
+      "total_reviews": 100,
+      "average_rating": 4.6,
+      "success_factors": {
+        "viral_effect": 14.000000000000002,
+        "social_proof": 100.0,
+        "value_perception": 17.0,
+        "quality_trust": 39.0,
+        "trend_following": 0.0,
+        "emotional_connection": 44.0,
+        "functional_need": 2.0,
+        "price_advantage": 0.0
+      },
+      "top_3_factors": [
+        [
+          "social_proof",
+          100.0
+        ],
+        [
+          "emotional_connection",
+          44.0
+        ],
+        [
+          "quality_trust",
+          39.0
+        ]
+      ],
+      "viral_score": 114.0,
+      "value_score": 17.0,
+      "trust_score": 139.0,
+      "formula": "(100.0%) Sosyal Onay: Herkes alıyor → Ben de almalıyım → FOMO etkisi + (44.0%) Duygusal Bağ: Görsel çekicilik + Kişisel stil = Satın alma dürtüsü + (39.0%) Kalite Güveni: Kaliteli görünüm + Olumlu yorumlar = Güven"
+    },
+    "viral_patterns": {
+      "organic_marketing": [
+        "Sevgi M.",
+        "Recep K.",
+        "Vildan B."
+      ],
+      "word_of_mouth": [
+        "Taner D."
+      ],
+      "social_media_effect": [],
+      "influencer_impact": [
+        "Hilal B.",
+        "Yasemin D.",
+        "İrem K.",
+        "Sevim K.",
+        "Halil B.",
+        "Cem S.",
+        "Elif D."
+      ],
+      "bandwagon_effect": []
+    }
+  },
+  "all_results": [
+    {
+      "product": "Palazzo Pantolon Oversize Orjinal Kesim",
+      "formula": {
+        "product_name": "Palazzo Pantolon Oversize Orjinal Kesim",
+        "total_reviews": 100,
+        "average_rating": 4.6,
+        "success_factors": {
+          "viral_effect": 14.000000000000002,
+          "social_proof": 100.0,
+          "value_perception": 17.0,
+          "quality_trust": 39.0,
+          "trend_following": 0.0,
+          "emotional_connection": 44.0,
+          "functional_need": 2.0,
+          "price_advantage": 0.0
+        },
+        "top_3_factors": [
+          [
+            "social_proof",
+            100.0
+          ],
+          [
+            "emotional_connection",
+            44.0
+          ],
+          [
+            "quality_trust",
+            39.0
+          ]
+        ],
+        "viral_score": 114.0,
+        "value_score": 17.0,
+        "trust_score": 139.0,
+        "formula": "(100.0%) Sosyal Onay: Herkes alıyor → Ben de almalıyım → FOMO etkisi + (44.0%) Duygusal Bağ: Görsel çekicilik + Kişisel stil = Satın alma dürtüsü + (39.0%) Kalite Güveni: Kaliteli görünüm + Olumlu yorumlar = Güven"
+      },
+      "viral_patterns": {
+        "organic_marketing": [
+          "Sevgi M.",
+          "Recep K.",
+          "Vildan B."
+        ],
+        "word_of_mouth": [
+          "Taner D."
+        ],
+        "social_media_effect": [],
+        "influencer_impact": [
+          "Hilal B.",
+          "Yasemin D.",
+          "İrem K.",
+          "Sevim K.",
+          "Halil B.",
+          "Cem S.",
+          "Elif D."
+        ],
+        "bandwagon_effect": []
+      }
+    }
+  ]
+}

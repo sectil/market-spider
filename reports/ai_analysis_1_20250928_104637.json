@@ -1,0 +1,291 @@
+{
+  "report_date": "2025-09-28T10:46:37.267794",
+  "product": {
+    "id": 1,
+    "name": "Palazzo Pantolon Oversize Orjinal Kesim",
+    "category": "Kadın Giyim",
+    "price": 449.0,
+    "url": "https://www.trendyol.com/fv/palazzo-pantolon-oversize-orjinal-kesim-p-652719507?boutiqueId=61&merchantId=745036"
+  },
+  "analysis": {
+    "local_analysis": {
+      "total_reviews": 100,
+      "average_rating": 4.6,
+      "sentiment_distribution": {
+        "negative": 35,
+        "positive": 60,
+        "neutral": 5
+      },
+      "purchase_reasons": [
+        "beğeni",
+        "beğeni",
+        "kalite",
+        "önerildi",
+        "fiyat",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "beğeni",
+        "kalite",
+        "önerildi",
+        "kalite",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "kalite",
+        "beğeni",
+        "fiyat",
+        "kalite",
+        "fiyat",
+        "beğeni",
+        "kalite",
+        "fiyat",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "kalite",
+        "fiyat",
+        "beğeni",
+        "fiyat",
+        "kalite",
+        "fiyat",
+        "beğeni",
+        "önerildi",
+        "beğeni",
+        "kalite",
+        "fiyat",
+        "önerildi",
+        "beğeni",
+        "beğeni",
+        "fiyat",
+        "kalite",
+        "önerildi",
+        "önerildi",
+        "önerildi",
+        "beğeni",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "beğeni",
+        "önerildi",
+        "beğeni",
+        "kalite",
+        "fiyat",
+        "beğeni",
+        "fiyat",
+        "beğeni",
+        "beğeni",
+        "kalite",
+        "fiyat",
+        "kalite",
+        "kalite",
+        "kalite",
+        "fiyat",
+        "önerildi",
+        "fiyat",
+        "kalite",
+        "fiyat",
+        "beğeni",
+        "beğeni",
+        "kalite",
+        "beğeni",
+        "fiyat",
+        "kalite",
+        "fiyat"
+      ],
+      "key_features": [
+        "tavsiye ederim.",
+        "çok güzel",
+        "tavsiye ederim.",
+        "beden",
+        "için",
+        "tavsiye ederim.",
+        "tavsiye ederim.",
+        "tavsiye ederim.",
+        "beden",
+        "çok güzel.",
+        "çok güzel",
+        "tavsiye ederim.",
+        "çok güzel"
+      ],
+      "customer_segments": {
+        "quality_focused": [
+          "Can D.",
+          "Veli A.",
+          "Murat B.",
+          "Onur T.",
+          "Ayşe K.",
+          "Ali R.",
+          "Kamil D.",
+          "Gülşen S.",
+          "Pınar K.",
+          "Hakan A.",
+          "Serpil T.",
+          "Sibel D.",
+          "Tuğba A.",
+          "Zafer M.",
+          "Burak A.",
+          "Selim E.",
+          "Seda K.",
+          "Berkay Y.",
+          "Eren K.",
+          "Yusuf K.",
+          "Havva M.",
+          "Merve T.",
+          "Gökhan M.",
+          "Mustafa T.",
+          "Ufuk T.",
+          "Nurcan A.",
+          "Elif D.",
+          "Mehmet K.",
+          "İbrahim Y.",
+          "Esra N."
+        ],
+        "price_sensitive": [
+          "Can D.",
+          "Volkan S.",
+          "Sibel D.",
+          "Tuğba A.",
+          "İlker K.",
+          "Berkay Y.",
+          "Eren K.",
+          "Leyla K.",
+          "Pelin B.",
+          "Kaan E.",
+          "Elif D.",
+          "Bülent K.",
+          "Tarık S.",
+          "Betül K.",
+          "Esra N."
+        ],
+        "social_influenced": [
+          "Can D.",
+          "Onur T.",
+          "Müge D.",
+          "Taner D.",
+          "Yusuf K.",
+          "Halil B.",
+          "Kübra Y.",
+          "Melis B.",
+          "Neslihan Ç."
+        ]
+      },
+      "top_purchase_reasons": [
+        [
+          "beğeni",
+          30
+        ],
+        [
+          "kalite",
+          30
+        ],
+        [
+          "fiyat",
+          17
+        ],
+        [
+          "önerildi",
+          9
+        ]
+      ],
+      "top_features": [
+        [
+          "tavsiye ederim.",
+          6
+        ],
+        [
+          "çok güzel",
+          3
+        ],
+        [
+          "beden",
+          2
+        ],
+        [
+          "için",
+          1
+        ],
+        [
+          "çok güzel.",
+          1
+        ]
+      ]
+    },
+    "manus_analysis": null,
+    "combined_insights": {
+      "confidence_level": "medium",
+      "data_sources": [
+        "local_ai"
+      ],
+      "key_findings": [
+        "En önemli satın alma nedeni: beğeni (30 kez)",
+        "Yüksek müşteri memnuniyeti: 4.6/5"
+      ]
+    }
+  },
+  "executive_summary": {
+    "product_name": "Palazzo Pantolon Oversize Orjinal Kesim",
+    "total_reviews_analyzed": 100,
+    "average_rating": 4.6,
+    "sentiment": {
+      "positive": 60,
+      "neutral": 5,
+      "negative": 35
+    },
+    "key_success_factors": [
+      "beğeni",
+      "kalite",
+      "fiyat"
+    ],
+    "viral_potential": "Unknown",
+    "market_position": "Market Leader"
+  },
+  "recommendations": [
+    {
+      "type": "pricing",
+      "priority": "medium",
+      "action": "Fiyat odaklı kampanyalar düzenleyin",
+      "reason": "Fiyat hassasiyeti yüksek müşteri segmenti"
+    },
+    {
+      "type": "social_media",
+      "priority": "high",
+      "action": "Influencer işbirlikleri ve referans programları başlatın",
+      "reason": "Sosyal etki altında satın alma eğilimi"
+    }
+  ],
+  "action_items": [
+    {
+      "id": 1,
+      "task": "En çok bahsedilen özellikleri ön plana çıkarın",
+      "deadline": "1 hafta",
+      "responsible": "Pazarlama",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "task": "Negatif yorumları analiz edin ve iyileştirme planı hazırlayın",
+      "deadline": "2 hafta",
+      "responsible": "Ürün Geliştirme",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "task": "Viral potansiyeli yüksek yorumları sosyal medyada paylaşın",
+      "deadline": "3 gün",
+      "responsible": "Sosyal Medya",
+      "status": "pending"
+    }
+  ]
+}

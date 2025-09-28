@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-09-28T20:25:40.820204",
+  "total_products": 104,
+  "total_reviews": 1797,
+  "real_urls": 0,
+  "real_reviews": 993,
+  "tests_passed": [
+    "Fiyat kontrolü",
+    "Marka kontrolü",
+    "Yorum kontrolü",
+    "Yorum özgünlük kontrolü",
+    "Tarih kontrolü"
+  ],
+  "tests_failed": [
+    "URL kontrolü (0.0%)"
+  ],
+  "success_rate": 83.33333333333334,
+  "quality": "ACCEPTED"
+}

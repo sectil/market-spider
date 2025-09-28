@@ -1,0 +1,257 @@
+
+    <!DOCTYPE html>
+    <html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trendyol Scraping Raporu - 2025-09-28 20:25</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
+                padding: 20px;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background: white;
+                border-radius: 20px;
+                box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                overflow: hidden;
+            }
+            .header {
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                padding: 40px;
+                color: white;
+                text-align: center;
+            }
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 10px;
+            }
+            .subtitle {
+                font-size: 1.2em;
+                opacity: 0.9;
+            }
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                padding: 30px;
+            }
+            .stat-card {
+                background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                transition: transform 0.3s;
+            }
+            .stat-card:hover {
+                transform: translateY(-5px);
+            }
+            .stat-number {
+                font-size: 2.5em;
+                font-weight: bold;
+                color: #333;
+            }
+            .stat-label {
+                font-size: 1em;
+                color: #666;
+                margin-top: 5px;
+            }
+            .section {
+                padding: 30px;
+            }
+            .section-title {
+                font-size: 1.8em;
+                color: #333;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                border-bottom: 3px solid #f093fb;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background: #f7f7f7;
+                padding: 12px;
+                text-align: left;
+                font-weight: 600;
+                color: #333;
+                border-bottom: 2px solid #ddd;
+            }
+            td {
+                padding: 10px 12px;
+                border-bottom: 1px solid #eee;
+            }
+            tr:hover {
+                background: #f9f9f9;
+            }
+            .success {
+                color: #27ae60;
+                font-weight: bold;
+            }
+            .warning {
+                color: #f39c12;
+                font-weight: bold;
+            }
+            .danger {
+                color: #e74c3c;
+                font-weight: bold;
+            }
+            .chart {
+                margin-top: 20px;
+                padding: 20px;
+                background: #f9f9f9;
+                border-radius: 10px;
+            }
+            .footer {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                font-size: 0.9em;
+            }
+            .badge {
+                display: inline-block;
+                padding: 5px 10px;
+                border-radius: 20px;
+                background: #f093fb;
+                color: white;
+                font-size: 0.85em;
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🛍️ Trendyol Scraping Raporu</h1>
+                <div class="subtitle">28 September 2025, 20:25</div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">104</div>
+                    <div class="stat-label">Toplam Ürün</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Gerçek Trendyol Ürünü</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1797</div>
+                    <div class="stat-label">Toplam Yorum</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">993</div>
+                    <div class="stat-label">Gerçek Yorum</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📊 Veri Kalite Analizi</h2>
+                <table>
+                    <tr>
+                        <th>Metrik</th>
+                        <th>Değer</th>
+                        <th>Durum</th>
+                    </tr>
+                    <tr>
+                        <td>Gerçek Ürün Oranı</td>
+                        <td>0.0%</td>
+                        <td class="danger">
+                            ❌ Düşük
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gerçek Yorum Oranı</td>
+                        <td>55.3%</td>
+                        <td class="warning">
+                            ⚠️ Orta
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kategori Çeşitliliği</td>
+                        <td>10 kategori</td>
+                        <td class="success">
+                            ✅ İyi
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Marka Çeşitliliği</td>
+                        <td>10 marka</td>
+                        <td class="success">
+                            ✅ İyi
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🏷️ En Popüler Markalar</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Marka</th>
+                            <th>Ürün Sayısı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Özdilek</td><td><span class="badge">3</span></td></tr><tr><td>2</td><td>Taç</td><td><span class="badge">3</span></td></tr><tr><td>3</td><td>Koton</td><td><span class="badge">3</span></td></tr><tr><td>4</td><td>Karaca</td><td><span class="badge">3</span></td></tr><tr><td>5</td><td>English Home</td><td><span class="badge">3</span></td></tr><tr><td>6</td><td>Yataş</td><td><span class="badge">2</span></td></tr><tr><td>7</td><td>Twist</td><td><span class="badge">2</span></td></tr><tr><td>8</td><td>Nike</td><td><span class="badge">2</span></td></tr><tr><td>9</td><td>Mavi</td><td><span class="badge">2</span></td></tr><tr><td>10</td><td>Madame Coco</td><td><span class="badge">2</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">⭐ En Yüksek Puanlı Ürünler</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ürün Adı</th>
+                            <th>Marka</th>
+                            <th>Fiyat</th>
+                            <th>Puan</th>
+                            <th>Yorum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Harry Potter Seti 7 Kitap...</td><td>YKY</td><td>₺699.00</td><td>⭐ 4.9</td><td>3211</td></tr><tr><td>Suç ve Ceza - Dostoyevski...</td><td>İş Bankası</td><td>₺75.00</td><td>⭐ 4.8</td><td>5432</td></tr><tr><td>Adidas Stan Smith...</td><td>Adidas</td><td>₺2499.00</td><td>⭐ 4.8</td><td>3876</td></tr><tr><td>MAC Ruby Woo Ruj...</td><td>MAC</td><td>₺899.00</td><td>⭐ 4.8</td><td>1234</td></tr><tr><td>Ray-Ban Aviator Güneş Gözlüğü...</td><td>Ray-Ban</td><td>₺3499.00</td><td>⭐ 4.8</td><td>1234</td></tr><tr><td>Sony WH-1000XM5 Kablosuz Kulaklık...</td><td>Sony</td><td>₺8999.00</td><td>⭐ 4.8</td><td>892</td></tr><tr><td>Samsonite Laptop Çantası...</td><td>Samsonite</td><td>₺2499.00</td><td>⭐ 4.8</td><td>654</td></tr><tr><td>Nike Air Max 270...</td><td>Nike</td><td>₺2999.00</td><td>⭐ 4.7</td><td>4321</td></tr><tr><td>Pınar Süt 1L 10'lu Paket...</td><td>Pınar</td><td>₺149.00</td><td>⭐ 4.7</td><td>4321</td></tr><tr><td>Atomik Alışkanlıklar...</td><td>Pegasus</td><td>₺89.00</td><td>⭐ 4.7</td><td>4321</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📅 Son Eklenen Ürünler</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ürün Adı</th>
+                            <th>Marka</th>
+                            <th>Fiyat</th>
+                            <th>Eklenme Tarihi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Özdilek Çift Kişilik Battaniye...</td><td>Özdilek</td><td>₺599.00</td><td>2025-09-28 20:19:17.197664</td></tr><tr><td>Taç Welsoft Battaniye...</td><td>Taç</td><td>₺399.00</td><td>2025-09-28 20:19:17.197648</td></tr><tr><td>English Home Silikon Yastık...</td><td>English Home</td><td>₺299.00</td><td>2025-09-28 20:19:17.197633</td></tr><tr><td>Yataş Visco Yastık...</td><td>Yataş</td><td>₺499.00</td><td>2025-09-28 20:19:17.197616</td></tr><tr><td>Evsa Blackout Perde...</td><td>Evsa</td><td>₺599.00</td><td>2025-09-28 20:19:17.197597</td></tr><tr><td>Brillant Tül Perde...</td><td>Brillant</td><td>₺399.00</td><td>2025-09-28 20:19:17.197576</td></tr><tr><td>Merinos Yolluk Halı...</td><td>Merinos</td><td>₺899.00</td><td>2025-09-28 20:19:17.197552</td></tr><tr><td>Sanat Halı Modern Desen...</td><td>Sanat</td><td>₺1999.00</td><td>2025-09-28 20:19:17.197532</td></tr><tr><td>Taç Jakarlı Havlu 6'lı...</td><td>Taç</td><td>₺499.00</td><td>2025-09-28 20:19:17.197513</td></tr><tr><td>Özdilek Banyo Havlusu Set...</td><td>Özdilek</td><td>₺299.00</td><td>2025-09-28 20:19:17.197495</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="footer">
+                <p>🤖 GitHub Actions ile otomatik oluşturuldu</p>
+                <p>Sonraki güncelleme: 4 saat sonra</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-28T20:25:41.277046",
+  "stats": {
+    "total_products": 104,
+    "real_products": 0,
+    "total_reviews": 1797,
+    "real_reviews": 993
+  },
+  "top_brands": [
+    {
+      "brand": "Özdilek",
+      "count": 3
+    },
+    {
+      "brand": "Taç",
+      "count": 3
+    },
+    {
+      "brand": "Koton",
+      "count": 3
+    },
+    {
+      "brand": "Karaca",
+      "count": 3
+    },
+    {
+      "brand": "English Home",
+      "count": 3
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "Kadın Giyim",
+      "count": 47
+    },
+    {
+      "category": "Mobilya",
+      "count": 6
+    },
+    {
+      "category": "📱 Elektronik",
+      "count": 5
+    },
+    {
+      "category": "Mutfak",
+      "count": 5
+    },
+    {
+      "category": "T-shirt",
+      "count": 3
+    }
+  ],
+  "data_quality": {
+    "real_product_ratio": 0.0,
+    "real_review_ratio": 0.5525876460767947,
+    "status": "NEEDS_IMPROVEMENT"
+  }
+}

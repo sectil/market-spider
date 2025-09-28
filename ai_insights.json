@@ -1,0 +1,46 @@
+{
+  "product_name": "Palazzo Pantolon Oversize Orjinal Kesim",
+  "analysis_date": "2025-09-28T00:18:56.886959",
+  "customer_segments": {
+    "primary_segment": "quality_focused",
+    "segment_distribution": [
+      {
+        "type": "quality_focused",
+        "count": 30,
+        "percentage": 30.0
+      },
+      {
+        "type": "price_sensitive",
+        "count": 17,
+        "percentage": 17.0
+      },
+      {
+        "type": "social_influenced",
+        "count": 13,
+        "percentage": 13.0
+      }
+    ]
+  },
+  "purchase_motivations": {
+    "top_trigger": [
+      "liking",
+      18.0
+    ],
+    "trigger_effectiveness": {
+      "liking": 18.0,
+      "simplicity": 17.0,
+      "exclusivity": 7.000000000000001
+    }
+  },
+  "customer_journey": {
+    "advocacy_rate": 9,
+    "satisfaction_rate": 8,
+    "consideration_depth": 0
+  },
+  "revenue_potential": {
+    "high_value_customers": 0,
+    "churn_risk_customers": 0,
+    "retention_opportunity": 8
+  },
+  "recommendations": []
+}

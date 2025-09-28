@@ -1,0 +1,892 @@
+[
+  {
+    "showSexualContent": true,
+    "sections": [
+      {
+        "id": "22"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "categoryHierarchy": "Giyim/Alt Giyim/Pantolon",
+    "categoryId": 529,
+    "categoryName": "Pantolon",
+    "socialProof": {
+      "orderCount": {
+        "count": "2000+",
+        "translateIdentifier": "ORDER_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/rocket-icon.png"
+      },
+      "favoriteCount": {
+        "count": "1.2M",
+        "translateIdentifier": "FAVORITE_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/orange-heart.png"
+      },
+      "pageViewCount": {
+        "count": "15316",
+        "translateIdentifier": "PAGE_VIEW_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_pageviewcount.png"
+      },
+      "basketCount": {
+        "count": "23393",
+        "translateIdentifier": "BASKET_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_basketcount.png"
+      }
+    },
+    "variants": [
+      {
+        "variantId": "2xs",
+        "attributeValue": "2XS",
+        "attributeName": "beden",
+        "price": {
+          "discountedPrice": 449,
+          "buyingPrice": 0,
+          "originalPrice": 449,
+          "sellingPrice": 449,
+          "currency": "TL"
+        },
+        "listingId": "60960b4c3af94be197aa2641b8120b3d",
+        "campaignId": 61,
+        "merchantId": 745036,
+        "discountedPriceInfo": "",
+        "hasCollectableCoupon": false,
+        "sameDayShipping": false,
+        "priceLabels": [
+          {
+            "name": "TY Plus",
+            "type": 4,
+            "value": "426.55"
+          }
+        ]
+      }
+    ],
+    "url": "/fv/palazzo-pantolon-oversize-orjinal-kesim-p-652719507?boutiqueId=61&merchantId=745036",
+    "stamps": [
+      {
+        "aspectRatio": 0.25,
+        "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+        "position": "upper-left",
+        "priority": 1100,
+        "type": "TypeA"
+      }
+    ],
+    "id": 652719507,
+    "name": "Palazzo Pantolon Oversize Orjinal Kesim",
+    "images": [
+      "/ty1555/product/media/images/ty1555/prod/QC/20240918/08/45d518a4-10a7-3c1a-9aa8-588ddc2ace46/1_org_zoom.jpg",
+      "/ty1555/product/media/images/ty1554/prod/QC/20240918/08/3ee731f1-eb27-3fc0-941c-192a385a5bc9/1_org_zoom.jpg",
+      "/ty1555/product/media/images/ty1556/prod/QC/20240918/08/1125ff17-7ecb-3c67-871b-00856afa3337/1_org_zoom.jpg",
+      "/ty1555/product/media/images/ty1554/prod/QC/20240918/08/f1f5b8cc-989c-37b6-8d2b-c2a2d90b753f/1_org_zoom.jpg"
+    ],
+    "imageAlt": "FV Palazzo Pantolon Oversize Orjinal Kesim",
+    "brand": {
+      "id": 171157,
+      "name": "FV"
+    },
+    "tax": 10,
+    "ratingScore": {
+      "averageRating": 4.314608654206244,
+      "totalCount": 58746
+    },
+    "productGroupId": 508647057,
+    "hasReviewPhoto": true,
+    "cardType": "PRODUCT",
+    "merchantId": 745036,
+    "campaignId": 61,
+    "price": {
+      "buyingPrice": 0,
+      "currency": "TL",
+      "discountRatio": 0,
+      "discountedPrice": 449,
+      "originalPrice": 449,
+      "sellingPrice": 449,
+      "currencyCode": "TRY"
+    },
+    "tyPlusPromotionPrice": {
+      "tyPlusPrice": 426.55,
+      "oldPrice": 449,
+      "currency": "TL"
+    },
+    "promotions": [
+      {
+        "discountType": 2,
+        "id": 24797905,
+        "name": "Trendyol Plus'a Özel Fiyat",
+        "promotionEndDate": "2025-10-27T23:55:00",
+        "shortName": "Plus'a Özel Fiyat"
+      },
+      {
+        "discountType": 2,
+        "id": 24497979,
+        "name": "4000 TL'ye 400 TL İndirim",
+        "promotionEndDate": "2025-10-01T23:59:00",
+        "shortName": "Çok Al Az Öde"
+      },
+      {
+        "discountType": 2,
+        "id": 24801687,
+        "name": "2. Ürüne 100 TL İndirim",
+        "promotionEndDate": "2025-09-30T23:59:00",
+        "shortName": "Çok Al Az Öde"
+      }
+    ],
+    "rushDeliveryDuration": 0,
+    "freeCargo": true,
+    "campaignName": "Tüm Ürünler",
+    "listingId": "60960b4c3af94be197aa2641b8120b3d",
+    "winnerVariant": "2XS",
+    "itemNumber": 1036376695,
+    "discountedPriceInfo": "",
+    "hasVideoContent": true,
+    "hasCrossPromotion": true,
+    "hasCollectableCoupon": false,
+    "sameDayShipping": false,
+    "priceLabels": [
+      {
+        "name": "TY Plus",
+        "type": 4,
+        "value": "426.55"
+      }
+    ],
+    "isLegalRequirementConfirmed": false,
+    "badges": [
+      {
+        "title": "Çok Al Az Öde",
+        "type": "TAKE_MORE_PAY_LESS"
+      },
+      {
+        "title": "Kargo Bedava",
+        "type": "FREE_CARGO"
+      },
+      {
+        "title": "Birlikte Al Kazan",
+        "type": "CROSS_PROMOTION"
+      },
+      {
+        "title": "Fenomen Seçimi",
+        "type": "PICKED_BY_INFLUENCER"
+      },
+      {
+        "title": "Videolu Ürün",
+        "type": "VIDEO_CONTENT"
+      }
+    ],
+    "categoryTopRankings": [],
+    "dsmColor": "Siyah",
+    "hasSexualContentBlur": false
+  },
+  {
+    "showSexualContent": true,
+    "sections": [
+      {
+        "id": "22"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "categoryHierarchy": "Giyim/İç Giyim/Atlet",
+    "categoryId": 603,
+    "categoryName": "Atlet",
+    "socialProof": {
+      "orderCount": {
+        "count": "1500+",
+        "translateIdentifier": "ORDER_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/rocket-icon.png"
+      },
+      "favoriteCount": {
+        "count": "699B",
+        "translateIdentifier": "FAVORITE_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/orange-heart.png"
+      },
+      "pageViewCount": {
+        "count": "6370",
+        "translateIdentifier": "PAGE_VIEW_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_pageviewcount.png"
+      },
+      "basketCount": {
+        "count": "12362",
+        "translateIdentifier": "BASKET_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_basketcount.png"
+      }
+    },
+    "variants": [
+      {
+        "variantId": "xs",
+        "attributeValue": "XS",
+        "attributeName": "beden",
+        "price": {
+          "discountedPrice": 189.77,
+          "buyingPrice": 0,
+          "originalPrice": 189.77,
+          "sellingPrice": 189.77,
+          "currency": "TL"
+        },
+        "listingId": "e4dce5f1e011c1196fa3f16e345edc0d",
+        "campaignId": 61,
+        "merchantId": 829806,
+        "discountedPriceInfo": "",
+        "hasCollectableCoupon": false,
+        "sameDayShipping": false,
+        "priceLabels": [
+          {
+            "name": "TY Plus",
+            "type": 4,
+            "value": "189.77"
+          }
+        ]
+      }
+    ],
+    "url": "/ethiquet/lillesol-kadin-fitilli-gorunumlu-kalin-askili-basic-beyaz-atlet-p-750123244?boutiqueId=61&merchantId=829806",
+    "stamps": [
+      {
+        "aspectRatio": 0.25,
+        "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+        "position": "upper-left",
+        "priority": 1100,
+        "type": "TypeA"
+      },
+      {
+        "aspectRatio": 0.2,
+        "imageUrl": "indexing-sticker-stamp/moon/75439ab0-63fd-470d-8c1a-8d2fb65a3a35.png",
+        "position": "lower-left",
+        "priority": 800,
+        "tagType": "AffordableProducts",
+        "type": "TypeA"
+      }
+    ],
+    "id": 750123244,
+    "name": "Lıllesol Kadın Fitilli Görünümlü Kalın Askılı Basic Beyaz Atlet",
+    "images": [
+      "/ty1216/product/media/images/prod/SPM/PIM/20240316/21/54d5550c-9693-305a-94c8-495c4346e37a/1_org_zoom.jpg",
+      "/ty1215/product/media/images/prod/SPM/PIM/20240316/21/ea9a9791-9ad8-3acb-801a-81fae1010824/1_org_zoom.jpg",
+      "/ty1217/product/media/images/prod/SPM/PIM/20240319/19/d1e3dddb-1fdc-33bf-ade6-643140c2d50f/1_org_zoom.jpg",
+      "/ty1215/product/media/images/prod/SPM/PIM/20240316/21/c31eb70a-328f-30a1-874b-832dc77d5b53/1_org_zoom.jpg",
+      "/ty1217/product/media/images/prod/SPM/PIM/20240316/21/edb494a3-b939-3ae5-972a-669d82d1a89a/1_org_zoom.jpg",
+      "/ty1216/product/media/images/prod/SPM/PIM/20240316/21/c70f69f7-283f-3f1e-8f0f-2ffdc1afe90b/1_org_zoom.jpg",
+      "/ty1215/product/media/images/prod/SPM/PIM/20240316/21/d3b01065-808c-39ab-8e34-5f35942375e8/1_org_zoom.jpg"
+    ],
+    "imageAlt": "ETHIQUET Lıllesol Kadın Fitilli Görünümlü Kalın Askılı Basic Beyaz Atlet",
+    "brand": {
+      "id": 164992,
+      "name": "ETHIQUET"
+    },
+    "tax": 10,
+    "ratingScore": {
+      "averageRating": 4.315454968221981,
+      "totalCount": 19353
+    },
+    "productGroupId": 570491642,
+    "hasReviewPhoto": true,
+    "cardType": "PRODUCT",
+    "merchantId": 829806,
+    "campaignId": 61,
+    "price": {
+      "buyingPrice": 0,
+      "currency": "TL",
+      "discountRatio": 0,
+      "discountedPrice": 189.77,
+      "originalPrice": 189.77,
+      "sellingPrice": 189.77,
+      "currencyCode": "TRY"
+    },
+    "tyPlusPromotionPrice": null,
+    "promotions": [
+      {
+        "discountType": 2,
+        "id": 24692539,
+        "name": "2 Adet ve Üzeri %10 İndirim",
+        "promotionEndDate": "2025-10-26T23:59:00",
+        "shortName": "2 Adede %10"
+      },
+      {
+        "discountType": 2,
+        "id": 24692545,
+        "name": "3 Adet ve Üzeri %15 İndirim",
+        "promotionEndDate": "2025-10-26T23:59:00",
+        "shortName": "3 Adede %15"
+      }
+    ],
+    "rushDeliveryDuration": 0,
+    "freeCargo": false,
+    "campaignName": "Tüm Ürünler",
+    "listingId": "e4dce5f1e011c1196fa3f16e345edc0d",
+    "winnerVariant": "XS",
+    "itemNumber": 987815243,
+    "discountedPriceInfo": "",
+    "hasVideoContent": false,
+    "hasCrossPromotion": false,
+    "hasCollectableCoupon": false,
+    "sameDayShipping": false,
+    "priceLabels": [
+      {
+        "name": "TY Plus",
+        "type": 4,
+        "value": "189.77"
+      }
+    ],
+    "isLegalRequirementConfirmed": false,
+    "badges": [
+      {
+        "title": "2 Adede %10",
+        "type": "TAKE_MORE_PAY_LESS"
+      },
+      {
+        "title": "Fenomen Seçimi",
+        "type": "PICKED_BY_INFLUENCER"
+      },
+      {
+        "priority": true,
+        "title": "1",
+        "type": "BEST_SELLER"
+      }
+    ],
+    "categoryTopRankings": [
+      {
+        "name": "bestSeller",
+        "order": "1"
+      }
+    ],
+    "dsmColor": "Beyaz",
+    "hasSexualContentBlur": false
+  },
+  {
+    "showSexualContent": true,
+    "sections": [
+      {
+        "id": "22"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "categoryHierarchy": "Giyim/Dış Giyim/Pardesü & Trençkot/Trençkot",
+    "categoryId": 540,
+    "categoryName": "Trençkot",
+    "socialProof": {
+      "orderCount": {
+        "count": "1500+",
+        "translateIdentifier": "ORDER_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/rocket-icon.png"
+      },
+      "favoriteCount": {
+        "count": "641B",
+        "translateIdentifier": "FAVORITE_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/orange-heart.png"
+      },
+      "pageViewCount": {
+        "count": "11990",
+        "translateIdentifier": "PAGE_VIEW_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_pageviewcount.png"
+      },
+      "basketCount": {
+        "count": "3282",
+        "translateIdentifier": "BASKET_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_basketcount.png"
+      }
+    },
+    "variants": [
+      {
+        "variantId": "l",
+        "attributeValue": "L",
+        "attributeName": "beden",
+        "price": {
+          "discountedPrice": 419.99,
+          "buyingPrice": 0,
+          "originalPrice": 419.99,
+          "sellingPrice": 419.99,
+          "currency": "TL"
+        },
+        "listingId": "84f31ebc45a00ba0731fe524db2683fb",
+        "campaignId": 61,
+        "merchantId": 134068,
+        "discountedPriceInfo": "",
+        "hasCollectableCoupon": true,
+        "sameDayShipping": false,
+        "priceLabels": [
+          {
+            "name": "TY Plus",
+            "type": 4,
+            "value": "419.99"
+          }
+        ]
+      }
+    ],
+    "url": "/hakke/kruvaze-yaka-trenckot-p-49622632?boutiqueId=61&merchantId=134068",
+    "stamps": [
+      {
+        "aspectRatio": 0.25,
+        "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+        "position": "upper-left",
+        "priority": 1100,
+        "type": "TypeA"
+      }
+    ],
+    "id": 49622632,
+    "name": "Kruvaze Yaka Trençkot",
+    "images": [
+      "/ty1748/prod/QC_PREP/20250905/17/e936c249-4cd9-38ae-805f-4f33311f7c02/1_org_zoom.jpg",
+      "/ty1750/prod/QC_PREP/20250905/17/47f33bf4-9bc8-3ca4-9fb0-af6cf4cc123a/1_org_zoom.jpg",
+      "/ty1750/prod/QC_PREP/20250905/17/ef340a1a-de39-3bdb-ae9b-d958b52e36c6/1_org_zoom.jpg",
+      "/ty1748/prod/QC_PREP/20250905/17/a79e8d99-b5a8-3767-bab2-bd6d34ca16fd/1_org_zoom.jpg",
+      "/ty1757/prod/QC_ENRICHMENT/20250918/17/b68c6d1f-c079-3be1-beb0-7b93a5ea4cab/1_org_zoom.jpg"
+    ],
+    "imageAlt": "HAKKE Kruvaze Yaka Trençkot",
+    "brand": {
+      "id": 111542,
+      "name": "HAKKE"
+    },
+    "tax": 10,
+    "ratingScore": {
+      "averageRating": 3.964097323869756,
+      "totalCount": 36209
+    },
+    "productGroupId": 41619937,
+    "hasReviewPhoto": true,
+    "cardType": "PRODUCT",
+    "merchantId": 134068,
+    "campaignId": 61,
+    "price": {
+      "buyingPrice": 0,
+      "currency": "TL",
+      "discountRatio": 0,
+      "discountedPrice": 419.99,
+      "originalPrice": 419.99,
+      "sellingPrice": 419.99,
+      "currencyCode": "TRY"
+    },
+    "tyPlusPromotionPrice": null,
+    "promotions": [],
+    "rushDeliveryDuration": 0,
+    "freeCargo": true,
+    "campaignName": "Tüm Ürünler",
+    "listingId": "84f31ebc45a00ba0731fe524db2683fb",
+    "winnerVariant": "L",
+    "itemNumber": 128333601,
+    "discountedPriceInfo": "",
+    "hasVideoContent": true,
+    "hasCrossPromotion": true,
+    "hasCollectableCoupon": true,
+    "sameDayShipping": false,
+    "priceLabels": [
+      {
+        "name": "TY Plus",
+        "type": 4,
+        "value": "419.99"
+      }
+    ],
+    "isLegalRequirementConfirmed": false,
+    "badges": [
+      {
+        "title": "Onaylanmış Satıcı",
+        "type": "OFFICIAL_SELLER"
+      },
+      {
+        "title": "Kupon Fırsatı",
+        "type": "COLLECTABLE_COUPON"
+      },
+      {
+        "title": "Kargo Bedava",
+        "type": "FREE_CARGO"
+      },
+      {
+        "title": "Birlikte Al Kazan",
+        "type": "CROSS_PROMOTION"
+      },
+      {
+        "title": "Fenomen Seçimi",
+        "type": "PICKED_BY_INFLUENCER"
+      },
+      {
+        "title": "Videolu Ürün",
+        "type": "VIDEO_CONTENT"
+      },
+      {
+        "priority": true,
+        "title": "1",
+        "type": "BEST_SELLER"
+      }
+    ],
+    "categoryTopRankings": [
+      {
+        "name": "bestSeller",
+        "order": "1"
+      }
+    ],
+    "dsmColor": "Vizon",
+    "hasSexualContentBlur": false
+  },
+  {
+    "showSexualContent": true,
+    "sections": [
+      {
+        "id": "22"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "categoryHierarchy": "Giyim/Üst Giyim/Sweatshirt",
+    "categoryId": 601,
+    "categoryName": "Sweatshirt",
+    "socialProof": {
+      "orderCount": {
+        "count": "1000+",
+        "translateIdentifier": "ORDER_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/rocket-icon.png"
+      },
+      "favoriteCount": {
+        "count": "66.1B",
+        "translateIdentifier": "FAVORITE_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/orange-heart.png"
+      },
+      "pageViewCount": {
+        "count": "10447",
+        "translateIdentifier": "PAGE_VIEW_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_pageviewcount.png"
+      },
+      "basketCount": {
+        "count": "10047",
+        "translateIdentifier": "BASKET_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_basketcount.png"
+      }
+    },
+    "variants": [
+      {
+        "variantId": "xs",
+        "attributeValue": "XS",
+        "attributeName": "beden",
+        "price": {
+          "discountedPrice": 279.99,
+          "buyingPrice": 0,
+          "originalPrice": 399.99,
+          "sellingPrice": 399.99,
+          "currency": "TL"
+        },
+        "listingId": "d6be37eb2faaac154c836aa5695139cb",
+        "campaignId": 61,
+        "merchantId": 1188,
+        "discountedPriceInfo": "",
+        "hasCollectableCoupon": false,
+        "sameDayShipping": false,
+        "lowestPriceDuration": 30,
+        "priceLabels": [
+          {
+            "name": "Sepette %30 İndirim",
+            "type": 2
+          },
+          {
+            "name": "TY Plus",
+            "type": 4,
+            "value": "279.99"
+          }
+        ]
+      }
+    ],
+    "url": "/defacto/coool-oversize-genis-kalip-bisiklet-yaka-basic-duz-kalin-siyah-sweatshirt-d9022axns-p-863335364?boutiqueId=61&merchantId=1188",
+    "stamps": [
+      {
+        "aspectRatio": 0.25,
+        "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+        "position": "upper-left",
+        "priority": 1100,
+        "type": "TypeA"
+      },
+      {
+        "aspectRatio": 0.2,
+        "imageUrl": "indexing-sticker-stamp/moon/75439ab0-63fd-470d-8c1a-8d2fb65a3a35.png",
+        "position": "lower-left",
+        "priority": 800,
+        "tagType": "AffordableProducts",
+        "type": "TypeA"
+      }
+    ],
+    "id": 863335364,
+    "name": "Coool Oversize Geniş Kalıp Bisiklet Yaka Basic Düz Kalın Siyah Sweatshirt D9022AXNS",
+    "images": [
+      "/ty1717/prod/QC_ENRICHMENT/20250731/18/34e05f00-393e-3530-b96f-4cd55cbd2bc5/1_org_zoom.jpg",
+      "/ty1717/prod/QC_ENRICHMENT/20250731/18/25bab4cc-9ebf-3c0d-8757-cb6d2ac66637/1_org_zoom.jpg",
+      "/ty1716/prod/QC_ENRICHMENT/20250731/18/159e8b8c-88fc-38b2-90a1-6277893ee367/1_org_zoom.jpg",
+      "/ty1718/prod/QC_ENRICHMENT/20250731/18/a72f8fdf-3547-3f2f-b804-741eeb2822ae/1_org_zoom.jpg",
+      "/ty1716/prod/QC_ENRICHMENT/20250731/18/c0ead223-1e59-3738-9249-8a3a41f3d87d/1_org_zoom.jpg",
+      "/ty1716/prod/QC_ENRICHMENT/20250731/18/e7bb796d-b421-3787-9dca-e16afbd707cf/1_org_zoom.jpg",
+      "/ty1718/prod/QC_ENRICHMENT/20250731/18/f4cb94f4-4bcf-325d-b9cf-7304ba38b626/1_org_zoom.jpg",
+      "/ty1717/prod/QC_ENRICHMENT/20250731/18/b9dbc3df-1163-3923-b0c6-d75c6db41a87/1_org_zoom.jpg"
+    ],
+    "imageAlt": "DeFacto Coool Oversize Geniş Kalıp Bisiklet Yaka Basic Düz Kalın Siyah Sweatshirt D9022AXNS",
+    "brand": {
+      "id": 37,
+      "name": "Defacto"
+    },
+    "tax": 10,
+    "ratingScore": {
+      "averageRating": 4.369181380417335,
+      "totalCount": 1246
+    },
+    "productGroupId": 658837895,
+    "hasReviewPhoto": true,
+    "cardType": "PRODUCT",
+    "merchantId": 1188,
+    "campaignId": 61,
+    "price": {
+      "buyingPrice": 0,
+      "currency": "TL",
+      "discountRatio": 30,
+      "discountedPrice": 279.99,
+      "originalPrice": 399.99,
+      "sellingPrice": 399.99,
+      "currencyCode": "TRY"
+    },
+    "tyPlusPromotionPrice": null,
+    "promotions": [
+      {
+        "discountType": 2,
+        "id": 24848141,
+        "name": "Sepette %30 İndirim",
+        "promotionEndDate": "2025-10-26T23:59:00",
+        "shortName": ""
+      }
+    ],
+    "rushDeliveryDuration": 0,
+    "freeCargo": false,
+    "campaignName": "Tüm Ürünler",
+    "listingId": "d6be37eb2faaac154c836aa5695139cb",
+    "winnerVariant": "XS",
+    "itemNumber": 1170280013,
+    "discountedPriceInfo": "",
+    "hasVideoContent": false,
+    "hasCrossPromotion": true,
+    "hasCollectableCoupon": false,
+    "sameDayShipping": false,
+    "lowestPriceDuration": 30,
+    "priceLabels": [
+      {
+        "name": "Sepette %30 İndirim",
+        "type": 2
+      },
+      {
+        "name": "TY Plus",
+        "type": 4,
+        "value": "279.99"
+      }
+    ],
+    "isLegalRequirementConfirmed": false,
+    "badges": [
+      {
+        "title": "Onaylanmış Satıcı",
+        "type": "OFFICIAL_SELLER"
+      },
+      {
+        "title": "Başarılı Satıcı",
+        "type": "SUCCESSFUL_SELLER"
+      },
+      {
+        "title": "Birlikte Al Kazan",
+        "type": "CROSS_PROMOTION"
+      },
+      {
+        "title": "Fenomen Seçimi",
+        "type": "PICKED_BY_INFLUENCER"
+      },
+      {
+        "priority": true,
+        "title": "1",
+        "type": "BEST_SELLER"
+      }
+    ],
+    "categoryTopRankings": [
+      {
+        "name": "bestSeller",
+        "order": "1"
+      }
+    ],
+    "dsmColor": "Siyah-BK81",
+    "hasSexualContentBlur": false
+  },
+  {
+    "showSexualContent": true,
+    "sections": [
+      {
+        "id": "22"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "categoryHierarchy": "Giyim/Alt Giyim/Pantolon",
+    "categoryId": 529,
+    "categoryName": "Pantolon",
+    "socialProof": {
+      "orderCount": {
+        "count": "1000+",
+        "translateIdentifier": "ORDER_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/rocket-icon.png"
+      },
+      "favoriteCount": {
+        "count": "1M",
+        "translateIdentifier": "FAVORITE_COUNT",
+        "icon": "https://cdn.dsmcdn.com/web/production/orange-heart.png"
+      },
+      "pageViewCount": {
+        "count": "13038",
+        "translateIdentifier": "PAGE_VIEW_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_pageviewcount.png"
+      },
+      "basketCount": {
+        "count": "23320",
+        "translateIdentifier": "BASKET_COUNT",
+        "icon": "https://cdn.dsmcdn.com/mobile/search-result/Socialproof_basketcount.png"
+      }
+    },
+    "variants": [
+      {
+        "variantId": "34",
+        "attributeValue": "34",
+        "attributeName": "beden",
+        "price": {
+          "discountedPrice": 474,
+          "buyingPrice": 0,
+          "originalPrice": 474,
+          "sellingPrice": 474,
+          "currency": "TL"
+        },
+        "listingId": "b419ebc9cf94461f35f3b419ea56cf73",
+        "campaignId": 61,
+        "merchantId": 195439,
+        "discountedPriceInfo": "",
+        "hasCollectableCoupon": false,
+        "sameDayShipping": false,
+        "priceLabels": [
+          {
+            "name": "TY Plus",
+            "type": 4,
+            "value": "426.60"
+          }
+        ]
+      }
+    ],
+    "url": "/ritnice/line-kadin-likrali-cirt-kapama-siyah-palazzo-pantolon-p-758917759?boutiqueId=61&merchantId=195439",
+    "stamps": [
+      {
+        "aspectRatio": 0.2,
+        "imageUrl": "indexing-sticker-stamp/moon/75439ab0-63fd-470d-8c1a-8d2fb65a3a35.png",
+        "position": "lower-left",
+        "priority": 800,
+        "tagType": "AffordableProducts",
+        "type": "TypeA"
+      }
+    ],
+    "id": 758917759,
+    "name": "Line Kadın Likralı Cırt Kapama Siyah Palazzo Pantolon",
+    "images": [
+      "/ty1596/prod/QC/20241104/13/62c34e5d-7fc2-39b2-84fd-a150aaf20542/1_org_zoom.jpg",
+      "/ty1671/prod/QC/20250506/00/70ed6000-aca0-364b-adab-15f8bb5ce350/1_org_zoom.jpg",
+      "/ty1597/prod/QC/20241104/13/39418052-87e7-3c4f-8feb-781febf55357/1_org_zoom.jpg",
+      "/ty1598/prod/QC/20241104/13/aa9053cb-85a5-3874-a64e-90b2ccd50055/1_org_zoom.jpg",
+      "/ty1597/prod/QC/20241104/13/7fb7d40f-276a-3ce0-8694-5e958c862ee8/1_org_zoom.jpg",
+      "/ty1597/prod/QC/20241104/13/19492e17-bf4d-30fa-b85f-eaa6e365f340/1_org_zoom.jpg",
+      "/ty1596/prod/QC/20241104/13/b800d2e0-8bc5-3719-9ce3-9b6d49ab0ba1/1_org_zoom.jpg",
+      "/ty1596/prod/QC/20241104/13/73c9e411-01ff-3101-a957-011882f4ca70/1_org_zoom.jpg"
+    ],
+    "imageAlt": "Ritnice Line Kadın Likralı Cırt Kapama Siyah Palazzo Pantolon",
+    "brand": {
+      "id": 163155,
+      "name": "Ritnice"
+    },
+    "tax": 10,
+    "ratingScore": {
+      "averageRating": 4.495969474136407,
+      "totalCount": 39573
+    },
+    "productGroupId": 577308862,
+    "hasReviewPhoto": true,
+    "cardType": "PRODUCT",
+    "merchantId": 195439,
+    "campaignId": 61,
+    "price": {
+      "buyingPrice": 0,
+      "currency": "TL",
+      "discountRatio": 0,
+      "discountedPrice": 474,
+      "originalPrice": 474,
+      "sellingPrice": 474,
+      "currencyCode": "TRY"
+    },
+    "tyPlusPromotionPrice": {
+      "tyPlusPrice": 426.6,
+      "oldPrice": 474,
+      "currency": "TL"
+    },
+    "promotions": [
+      {
+        "discountType": 2,
+        "id": 24797727,
+        "name": "Trendyol Plus'a Özel Fiyat",
+        "promotionEndDate": "2025-10-15T23:55:00",
+        "shortName": "Plus'a Özel Fiyat"
+      },
+      {
+        "discountType": 2,
+        "id": 24857833,
+        "name": "2. Ürüne %5 İndirim",
+        "promotionEndDate": "2025-09-28T23:59:00",
+        "shortName": "2. Ürün %5"
+      }
+    ],
+    "rushDeliveryDuration": 0,
+    "freeCargo": true,
+    "campaignName": "Tüm Ürünler",
+    "listingId": "b419ebc9cf94461f35f3b419ea56cf73",
+    "winnerVariant": "34",
+    "itemNumber": 1035120297,
+    "discountedPriceInfo": "",
+    "hasVideoContent": true,
+    "hasCrossPromotion": true,
+    "hasCollectableCoupon": false,
+    "sameDayShipping": false,
+    "priceLabels": [
+      {
+        "name": "TY Plus",
+        "type": 4,
+        "value": "426.60"
+      }
+    ],
+    "isLegalRequirementConfirmed": false,
+    "badges": [
+      {
+        "title": "2. Ürün %5",
+        "type": "TAKE_MORE_PAY_LESS"
+      },
+      {
+        "title": "Kargo Bedava",
+        "type": "FREE_CARGO"
+      },
+      {
+        "title": "Birlikte Al Kazan",
+        "type": "CROSS_PROMOTION"
+      },
+      {
+        "title": "Fenomen Seçimi",
+        "type": "PICKED_BY_INFLUENCER"
+      },
+      {
+        "title": "Videolu Ürün",
+        "type": "VIDEO_CONTENT"
+      },
+      {
+        "priority": true,
+        "title": "2",
+        "type": "BEST_SELLER"
+      }
+    ],
+    "categoryTopRankings": [
+      {
+        "name": "bestSeller",
+        "order": "2"
+      }
+    ],
+    "dsmColor": "Siyah",
+    "hasSexualContentBlur": false
+  }
+]
