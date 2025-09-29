@@ -1,5 +1,5 @@
  name: Trendyol Data Scraper
-  on:
+ on:
     schedule:
       - cron: '0 */4 * * *'
     workflow_dispatch:
