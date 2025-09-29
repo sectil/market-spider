@@ -1,35 +1,25 @@
  name: Trendyol Data Scraper
-
   on:
     schedule:
       - cron: '0 */4 * * *'
     workflow_dispatch:
-
   jobs:
     scrape:
       runs-on: ubuntu-latest
-
       steps:
         - uses: actions/checkout@v3
-
         - name: Setup Python
           uses: actions/setup-python@v4
           with:
             python-version: '3.10'
-
         - name: Install Chrome
           run: |
             sudo apt-get update
             sudo apt-get install -y google-chrome-stable
-
         - name: Install dependencies
-          run: |
-            pip install -r requirements.txt
-
+          run: pip install -r requirements.txt
         - name: Run scraper
-          run: |
-            python3 github_advanced_scraper.py
-
+          run: python3 github_advanced_scraper.py
         - name: Upload results
           uses: actions/upload-artifact@v3
           with:
@@ -37,11 +27,10 @@
             path: |
               market_spider.db
               scraped_products.csv
-
         - name: Commit changes
           run: |
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add market_spider.db scraped_products.csv || true
-            git commit -m "Update data: $(date)" || echo "No changes"
+            git commit -m "Update data" || echo "No changes"
             git push || echo "No push needed"
