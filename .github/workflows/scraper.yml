@@ -1,8 +1,6 @@
  name: Trendyol Scraper
   on:
     workflow_dispatch:
-    schedule:
-      - cron: '0 */6 * * *'
   jobs:
     scrape:
       runs-on: ubuntu-latest
@@ -11,30 +9,14 @@
         - uses: actions/setup-python@v4
           with:
             python-version: '3.10'
-        - name: Install packages
-          run: |
-            pip install requests beautifulsoup4 pandas
-            pip install cloudscraper fake-useragent
-        - name: List files
-          run: ls -la
-        - name: Run scraper
-          run: |
-            if [ -f "scrapers/trendyol_scraper.py" ]; then
-              python3 scrapers/trendyol_scraper.py
-            elif [ -f "api_endpoint_scraper.py" ]; then
-              python3 api_endpoint_scraper.py
-            elif [ -f "trendyol_scraper.py" ]; then
-              python3 trendyol_scraper.py
-            else
-              echo "No scraper found"
-            fi
-        - name: Check results
-          run: |
-            python3 check_database.py || echo "No check script"
-            ls -la *.db *.csv 2>/dev/null || echo "No output files yet"
+        - run: pip install requests beautifulsoup4 pandas cloudscraper fake-useragent
+        - run: ls -la
+        - run: python3 api_endpoint_scraper.py || echo "API scraper not found or failed"
+        - run: python3 check_database.py || echo "Check script not found"
+        - run: ls -la *.db *.csv || echo "No files generated"
         - uses: actions/upload-artifact@v3
           with:
-            name: data
+            name: scraped-data
             path: |
               *.db
               *.csv
