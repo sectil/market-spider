@@ -1,5 +1,5 @@
- name: Trendyol Scraper
-  on:
+name: Trendyol Scraper
+on:
     workflow_dispatch:
   jobs:
     scrape:
